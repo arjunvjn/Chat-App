@@ -62,7 +62,6 @@ export default function Navigate() {
                     </Typography>
                     {localStorage.getItem('accessToken') ?
                         <>
-                            <Button color="inherit" onClick={() => navigate('/chat')}>Chat</Button>
                             <Button color="inherit" onClick={() => userLogout()}>Logout</Button>
                         </> :
                         <>
